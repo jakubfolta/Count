@@ -6,4 +6,3 @@ def count(sequence, item):
   return total
 
 print(count(['ab', 'dr', 'd', 'ab', 'ut', 'aba', 'd', 'ab'], 'ab'))
-    
