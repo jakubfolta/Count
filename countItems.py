@@ -1,0 +1,8 @@
+def countItems(sequence, item):
+  total = 0
+  for index in sequence:
+    if index == item:
+      total += 1
+  return total
+
+print(countItems(['ab', 'ddr', 'dfg', 'afb', 'udt', 'aba', 'd', 'ab'], 'ab'))
