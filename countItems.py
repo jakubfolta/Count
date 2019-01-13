@@ -9,4 +9,8 @@ print(countItems(['ab', 'ddr', 'dfg', 'afb', 'udt', 'aba', 'd', 'ab'], 'ab'))
 
 
 def countHowManyItemsAppear(sequence, item):
-  pass
+    total = 0
+    for x in sequence:
+        if x == item:
+            total += 1
+    return total
