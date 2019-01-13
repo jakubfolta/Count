@@ -6,3 +6,7 @@ def countItems(sequence, item):
   return total
 
 print(countItems(['ab', 'ddr', 'dfg', 'afb', 'udt', 'aba', 'd', 'ab'], 'ab'))
+
+
+def countHowManyItemsAppear(sequence, item):
+  pass
