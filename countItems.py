@@ -16,3 +16,13 @@ def countHowManyItemsAppear(sequence, item):
     return total
 
 print(countHowManyItemsAppear(['ab', 'ddr', 'dfg', 'afb', 'udt', 'aba', 'd', 'ab'], 'ab'))
+
+
+def countItems(sequence, item):
+  total = 0
+  for x in sequence:
+    if x == item:
+      total += 1
+  return total
+
+print(countItems(['abc', 'ddr', 'dfg', 'afb', 'abc', 'udt', 'aba', 'd', 'abc'], 'abc'))
