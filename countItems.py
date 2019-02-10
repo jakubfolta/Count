@@ -26,3 +26,7 @@ def countItems(sequence, item):
   return total
 
 print(countItems(['abc', 'ddr', 'dfg', 'afb', 'abc', 'udt', 'aba', 'd', 'abc'], 'abc'))
+
+def countItems(sequence, item):
+  total = 0
+  
