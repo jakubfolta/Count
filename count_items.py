@@ -13,4 +13,6 @@ def count_items(sequence, item):
 print(count_items(['dada', 'dsadef', 'das', 'dade', 'asa', 'fsdf', 'asa'], 'asa'))
 
 def count_items(sequence, item):
-    
+    return sum([1 for x in sequence if x == item])
+
+print(count_items(['dada', 'dsadef', 'das', 'dade', 'asa', 'fsdf', 'asa'], 'asa'))
